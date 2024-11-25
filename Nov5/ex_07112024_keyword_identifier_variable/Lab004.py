@@ -1,14 +1,4 @@
-# print()
-#None
- #class
-    # break
-     #pramod
-import keyword
-print(keyword.kwlist)
+a= (4 & 4)
+#print(6>9)
 
-
-# ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await',
-# 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except',
-# 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is',
-# 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return',
-# 'try', 'while', 'with', 'yield']
+print(a)
