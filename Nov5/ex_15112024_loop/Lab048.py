@@ -1,0 +1,37 @@
+for i in range(100):
+    if i % 3 == 0:
+     print("Fizza", i)
+    elif i % 5 ==0:
+        print("Buzz",i)
+
+
+
+# Python program to
+# demonstrate break statement
+
+s = 'geeksforgeeks'
+# Using for loop
+for letter in s:
+
+    print(letter)
+    # break the loop as soon it sees 'e'
+    # or 's'
+    if letter == 'e' or letter == 's':
+        break
+
+print("Out of for loop"    )
+print()
+
+i = 0
+
+# Using while loop
+while True:
+    print(s[i])
+
+    # break the loop as soon it sees 'e'
+    # or 's'
+    if s[i] == 'e' or s[i] == 's':
+        break
+    i += 1
+
+print("Out of while loop ")
